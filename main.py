@@ -16,7 +16,7 @@ GIRLFRIEND_CHAT_ID = False
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Привет! Я бот. Напиши пожалуйста команду /id в чат со мной")
 
-app = ApplicationBuilder().token("7853026188:AAFfYhkceinXhFDfAxoGd9t_TdZRkvxkHw0").build()
+app = ApplicationBuilder().token("BOT_TOKEN").build()
 
 async def compliment(update: Update, context: ContextTypes.DEFAULT_TYPE):
     compliment_text = random.choice(COMPLIMENTS)
