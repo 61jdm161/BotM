@@ -13,7 +13,7 @@ COMPLIMENTS = [
     "Ты вдохновляешь меня каждый день ✨"
 ]
 
-GIRLFRIEND_CHAT_ID = 485123976
+GIRLFRIEND_CHAT_ID = 527467559
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Привет! Я бот. Напиши пожалуйста команду /id в чат со мной")
